@@ -95,6 +95,7 @@ class SwigConan(ConanFile):
             if is_msvc(self):
                 env.define("CC", "cccl -FS")
                 env.define("CXX", "cccl -FS")
+                env.define("BISON", "win_bison")
                 tc.configure_args.append("--disable-ccache")
             else:
                 tc.extra_ldflags.append("-static")
