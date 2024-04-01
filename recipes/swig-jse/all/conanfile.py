@@ -16,7 +16,7 @@ class SwigConan(ConanFile):
     name = "swig-jse"
     description = "SWIG JavaScript Evolution is a fork of SWIG with a focus on JavaScript."
     license = "GPL-3.0-or-later"
-    url = "https://swig.momtchev.com:8081/artifactory/api/conan/swig-jse"
+    url = "https://swig.momtchev.com/artifactory/api/conan/swig-jse"
     homepage = "http://github.com/mmomtchev/swig"
     topics = ("javascript", "python", "wrapper")
 
